@@ -11,13 +11,13 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://iai_kitchen/meshes/misc/big_table_1.dae"/>
+          <mesh filename="package://iai_kitchen/meshes/misc/square_table.dae"/>
         </geometry>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://iai_kitchen/meshes/misc/big_table_1.stl"/>
+          <mesh filename="package://iai_kitchen/meshes/misc/square_table.stl"/>
         </geometry>
       </collision>
     </link>

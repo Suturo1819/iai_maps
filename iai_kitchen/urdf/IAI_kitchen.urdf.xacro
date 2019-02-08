@@ -35,14 +35,15 @@
       <static>false</static>
   </gazebo>
   <!--- FIXME THIS should NOT be here -->
-  <xacro:include filename="$(find iai_kitchen)/urdf/IAI_oven_area.urdf.xacro"/>
+  <!-- <xacro:include filename="$(find iai_kitchen)/urdf/IAI_oven_area.urdf.xacro"/>
   <xacro:include filename="$(find iai_kitchen)/urdf/IAI_kitchen_island.urdf.xacro"/>
   <xacro:include filename="$(find iai_kitchen)/urdf/IAI_sink_area.urdf.xacro"/>
   <xacro:include filename="$(find iai_kitchen)/urdf/IAI_fridge_area.urdf.xacro"/>
-  <xacro:include filename="$(find iai_kitchen)/urdf/IAI_tables.urdf.xacro"/>
-  <xacro:include filename="$(find iai_kitchen)/urdf/IAI_kitchen_walls.urdf.xacro"/>
+   -->
+   <xacro:include filename="$(find iai_kitchen)/urdf/IAI_tables.urdf.xacro"/>
+  <!-- <xacro:include filename="$(find iai_kitchen)/urdf/IAI_kitchen_walls.urdf.xacro"/> -->
   
-  <iai_sink_area name="sink_area" parent="room_link">
+  <!-- <iai_sink_area name="sink_area" parent="room_link">
     <origin xyz="1.825 1.32 0" rpy="0 0 ${pi}" />    
   </iai_sink_area>
   
@@ -57,17 +58,20 @@
   
   <iai_fridge_area name="fridge_area" parent="room_link">
     <origin xyz="1.825 -0.74 0" rpy="0 0 ${pi}" />    
-  </iai_fridge_area>
+  </iai_fridge_area> -->
   
   
   <iai_table_1 name="table_area" parent="room_link">
-    <origin xyz="-1.4 -1.05 0" rpy="0 0 ${pi}" />
+    <origin xyz="-0.35 -1.7 0" rpy="0 0 ${pi}" />
   </iai_table_1>
+  <!-- 80cm, 80cm, 71,7cm -->
+
+
+  <!-- 6, 24,7 80 116,2 147,8-->
   
-  
-  <iai_kitchen_wall_robohow parent="room_link">
+  <!-- <iai_kitchen_wall_robohow parent="room_link">
     <origin xyz="-1 0.562175 0" rpy="0.0 0.0 0.0" />    
-  </iai_kitchen_wall_robohow>
+  </iai_kitchen_wall_robohow> -->
  
 
 
