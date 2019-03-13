@@ -2,13 +2,13 @@
 
 <robot name="kitchen_description" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <!-- Define data here, to make poses & dimensions easily adjustable from the outside -->
-  <xacro:property name="data" value="${load_yaml('$(find suturo_perception_msgs)/config/semantic_map_without_opencv_annotation.yaml')}" />
+  <xacro:property name="data" 
+    value="${load_yaml('$(find suturo_perception_msgs)/config/semantic_map_manual_data.yaml')}" />
 
   <xacro:property name="table_x" 
-    value="${data['robocup_table']['transform']['data'][3] - table_depth/2}" />
+    value="${data['robocup_table']['x_pos']}" />
   <xacro:property name="table_y" 
-    value="${data['robocup_table']['transform']['data'][7] - table_width/2}" />
+    value="${data['robocup_table']['y_pos']}" />
   <xacro:property name="table_z_rot" 
     value="${data['robocup_table']['z_rot']}" />
   <xacro:property name="table_depth" 
@@ -18,13 +18,19 @@
   <xacro:property name="table_height" 
     value="${data['robocup_table']['height']}" />
   <xacro:property name="shelf_x" 
-    value="-${shelf_width}" />
-  <xacro:property name="shelf_y" value="0.0" />
-  <xacro:property name="shelf_z_rot" value="${pi * 1.5}" />
-  <xacro:property name="shelf_depth" value="0.3" />
-  <xacro:property name="shelf_width" value="0.99" />
-  <xacro:property name="shelf_height" value="1.5" />
-  <xacro:property name="shelf_floors_height" value="[0.06, 0.247, 0.80, 1.162, 1.478]" />
+    value="${data['robocup_shelf']['x_pos']}" />
+  <xacro:property name="shelf_y" 
+    value="${data['robocup_shelf']['y_pos']}" />
+  <xacro:property name="shelf_z_rot" 
+    value="${data['robocup_shelf']['z_rot']}" />
+  <xacro:property name="shelf_depth" 
+    value="${data['robocup_shelf']['depth']}" />
+  <xacro:property name="shelf_width" 
+    value="${data['robocup_shelf']['width']}" />
+  <xacro:property name="shelf_height" 
+    value="${data['robocup_shelf']['height']}" />
+  <xacro:property name="shelf_floors_height" 
+    value="${data['robocup_shelf']['floors_height']}" />
 
   <link name="env_origin"/> 
   
