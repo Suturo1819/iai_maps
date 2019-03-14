@@ -36,7 +36,7 @@
 
     <!-- WALLS -->
     <robocup_shelf_piece name="${name}_back" parent="${name}_origin" 
-      size_x="0.08" size_y="${size_y}" size_z="${size_z}">
+      size_x="0.01" size_y="${size_y}" size_z="${size_z}">
       <origin xyz="${size_x} ${size_y/2} ${size_z/2}" rpy="0 0 0"/>
     </robocup_shelf_piece>
 
@@ -53,28 +53,28 @@
 
     <!-- FLOORS -->
     <robocup_shelf_piece name="${name}_floor_0" parent="${name}_base_center" 
-      size_x="${size_x}" size_y="${size_y}" size_z="0.04">
-      <origin xyz="0.0 0.0 ${floors_height[0] - 0.02}" rpy="0 0 0"/>
+      size_x="${size_x}" size_y="${size_y}" size_z="0.04" box_z_offset="-0.02">
+      <origin xyz="0.0 0.0 ${floors_height[0]}" rpy="0 0 0"/>
     </robocup_shelf_piece>
 
     <robocup_shelf_piece name="${name}_floor_1" parent="${name}_base_center" 
-      size_x="${size_x}" size_y="${size_y}" size_z="0.04">
-      <origin xyz="0.0 0.0 ${floors_height[1] - 0.02}" rpy="0 0 0"/>
+      size_x="${size_x}" size_y="${size_y}" size_z="0.04" box_z_offset="-0.02">
+      <origin xyz="0.0 0.0 ${floors_height[1]}" rpy="0 0 0"/>
     </robocup_shelf_piece>
 
     <robocup_shelf_piece name="${name}_floor_2" parent="${name}_base_center" 
-      size_x="${size_x}" size_y="${size_y}" size_z="0.04">
-      <origin xyz="0.0 0.0 ${floors_height[2] - 0.02}" rpy="0 0 0"/>
+      size_x="${size_x}" size_y="${size_y}" size_z="0.04" box_z_offset="-0.02">
+      <origin xyz="0.0 0.0 ${floors_height[2]}" rpy="0 0 0"/>
     </robocup_shelf_piece>
 
     <robocup_shelf_piece name="${name}_floor_3" parent="${name}_base_center" 
-      size_x="${size_x}" size_y="${size_y}" size_z="0.04">
-      <origin xyz="0.0 0.0 ${floors_height[3] - 0.02}" rpy="0 0 0"/>
+      size_x="${size_x}" size_y="${size_y}" size_z="0.04" box_z_offset="-0.02">
+      <origin xyz="0.0 0.0 ${floors_height[3]}" rpy="0 0 0"/>
     </robocup_shelf_piece>
 
     <robocup_shelf_piece name="${name}_floor_4" parent="${name}_base_center" 
-      size_x="${size_x}" size_y="${size_y}" size_z="0.04">
-      <origin xyz="0.0 0.0 ${floors_height[4] - 0.02}" rpy="0 0 0"/>
+      size_x="${size_x}" size_y="${size_y}" size_z="0.04" box_z_offset="-0.02">
+      <origin xyz="0.0 0.0 ${floors_height[4]}" rpy="0 0 0"/>
     </robocup_shelf_piece>
   </macro>
 
@@ -82,19 +82,19 @@
 
   <!-- Creates a link with collision and visual box of given dimensions,
   and a respective joint to append it to the parent with given origin.  -->
-  <macro name="robocup_shelf_piece" params="name parent *origin size_x size_y size_z">
+  <macro name="robocup_shelf_piece" params="name parent *origin box_z_offset=0.0 size_x size_y size_z">
 
     <!-- LINK -->
     <link name="${name}_piece">
       <visual>
         <material name="shelf_grey"/>
-        <origin xyz="0 0 0" rpy="0 0 0" />
+        <origin xyz="0 0 ${box_z_offset}" rpy="0 0 0" />
         <geometry>
           <box size="${size_x} ${size_y} ${size_z}" />
         </geometry>
       </visual>
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0" />
+        <origin xyz="0 0 ${box_z_offset}" rpy="0 0 0" />
         <geometry>
           <box size="${size_x} ${size_y} ${size_z}" />
         </geometry>
