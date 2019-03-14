@@ -1,5 +1,0 @@
-<launch>
-  <include file="$(find iai_maps)/launch/kitchen_with_state_publisher.launch" />
-  <include file="$(find hsr_navigation)/launch/hsr_map_and_snap_map.launch" />
-  <!--include file="$(find iai_maps)/launch/json.launch" /-->
-</launch>
