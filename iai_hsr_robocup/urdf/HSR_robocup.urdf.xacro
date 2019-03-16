@@ -31,6 +31,8 @@
     value="${data['robocup_shelf']['height']}" />
   <xacro:property name="shelf_floors_height" 
     value="${data['robocup_shelf']['floors_height']}" />
+    <xacro:property name="num_floors" 
+    value="${data['robocup_shelf']['num_floors']}" />
 
   <link name="env_origin"/> 
   
