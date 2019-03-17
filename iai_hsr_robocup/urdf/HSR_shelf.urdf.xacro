@@ -67,7 +67,7 @@
     </xacro:if>
 
     <xacro:if value="${num_floors > 2}">
-      <robocup_shelf_piece name="${name_floor_2" parent="${name}_base_center" 
+      <robocup_shelf_piece name="${name}_floor_2" parent="${name}_base_center"
         size_x="${size_x}" size_y="${size_y}" size_z="0.04" box_z_offset="-0.02">
         <origin xyz="0.0 0.0 ${floors_height[2]}" rpy="0 0 0"/>
       </robocup_shelf_piece>

@@ -1,4 +1,3 @@
-# this is only an example yaml, which can be loaded in the HSR_robocup.urdf_xacro
 names:
    - robocup_table
    - robocup_shelf
@@ -6,7 +5,7 @@ robocup_table:
    type: Table
    width:  0.85
    height: 0.76
-   depth: 0.85    
+   depth: 0.85
    z_rot: 1.570796 # rotate 90 degree counter-clockwise w.r.t env_origin
    x_pos: -0.12
    y_pos: 1.45
@@ -18,11 +17,16 @@ robocup_shelf:
    z_rot: 0.0
    x_pos: 0.0
    y_pos: 0.0
-   floors_height: [0.06, 0.247, 0.80, 1.162, 1.478]
-env_origin: 
+   floors_height: [0.06, 0.347, 0.80, 1.162, 1.478]
+   num_floors: 5
+# adjust for the region filter
+surface_top_offset: 0.3 # 30cm above region surface
+surface_bottom_offset: 0.1 # 10cm into region surface
+env_origin:
    x_pos: -0.86 
    y_pos: -0.60 
    z_rot: 4.785
+   # adjust these values if you change hsr_robocup_with_state_publisher.launch in iai_hsr_robocup
    # w.r.t. current map frame. 
    # right front corner of the shelf. x facing towards depth of shelf.
    # is neither used in static publisher, nor in urdf 
