@@ -22,11 +22,8 @@ robocup_shelf:
 # adjust for the region filter
 surface_top_offset: 0.3 # 30cm above region surface
 surface_bottom_offset: 0.1 # 10cm into region surface
-env_origin:
-   x_pos: -0.86 
-   y_pos: -0.60 
-   z_rot: 4.785
-   # adjust these values if you change hsr_robocup_with_state_publisher.launch in iai_hsr_robocup
-   # w.r.t. current map frame. 
-   # right front corner of the shelf. x facing towards depth of shelf.
-   # is neither used in static publisher, nor in urdf 
+#not used, but this is the data in hsr_robocup_with_state_publisher.launch
+#env_origin:
+#   x_pos: -0.86
+#   y_pos: -0.60
+#   z_rot: 4.785
