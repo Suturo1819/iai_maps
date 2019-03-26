@@ -25,13 +25,13 @@ To provide RoboSherlock with proper region to collect data from, you can generat
 rosrun iai_hsr_robocup region_filter_setup.py
 ```
 
-You can also specify a path to your target file. The default is `semantic_map.yaml`. Change it like this:
+You can also specify your target file. The default is `semantic_map.yaml`. Change it like this:
 
 ```
-rosrun iai_hsr_robocup region_filter_setup.py ./my/individual/path/to/happiness.yaml
+rosrun iai_hsr_robocup region_filter_setup.py my_individual_happiness.yaml
 ```
 
-while the dynamic origin of the path is still the directory you are calling from.
+while the path is still the directory you are calling from.
 
 ## semantic map
 
