@@ -15,7 +15,7 @@
   </node>
 
   <node pkg="tf" type="static_transform_publisher" name="kitchen_link_broadcaster"
-    args="-0.86 -0.60 0 4.785 0 0 /map /environment/env_origin 25"> 
+    args="0.0 0.0 0 4.785 0 0 /map /environment/env_origin 25"> 
     <!-- turn around 1.5 * PI to set env_origin at right front corner of the shelf-->
   </node>
   <node pkg="robot_state_publisher" type="robot_state_publisher"
