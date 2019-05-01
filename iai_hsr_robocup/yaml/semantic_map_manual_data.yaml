@@ -1,12 +1,14 @@
 names:
    - robocup_table
    - robocup_shelf
+##################
+# TEST ENVIRONMENT
 robocup_table:
    type: Table
    width:  0.75
    height: 0.46
    depth: 0.55
-   z_rot: 1.32 # rotate 90 degree counter-clockwise w.r.t env_origin
+   z_rot: 1.32
    x_pos: -0.12
    y_pos: 1.86
 robocup_shelf:
@@ -19,6 +21,58 @@ robocup_shelf:
    y_pos: 0.05
    floors_height: [0.11, 0.54, 0.96]
    num_floors: 3
+# TEST ENVIRONMENT
+##################
+######################
+# LIVING ROOM ENV
+####
+## COFFEE TABLE
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: -2.48
+   #x_pos: -3.88
+   #y_pos: -2.18
+## COFFEE TABLE
+####
+####
+## SIDEBOARD
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: 1.5
+   #x_pos: -1.62
+   #y_pos: 0.57
+## SIDEBOARD
+####
+####
+## TV TABLE 
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: 1.5
+   #x_pos: -3.95
+   #y_pos: 0.84
+### TV TABLE
+##### 
+#robocup_shelf:
+   #type: Shelf
+   #width: 0.92
+   #height: 2.1
+   #depth: 0.4
+   #z_rot: -0.05
+   #x_pos: 0.0
+   #y_pos: 0.04
+   #floors_height: [0.11, 0.54, 0.96]
+   #num_floors: 3
+# LIVING ROOM ENV
+######################
 # adjust for the region filter
 surface_top_offset: 0.30 # 30cm above region surface
 surface_bottom_offset: 0.05 # 5cm into region surface
