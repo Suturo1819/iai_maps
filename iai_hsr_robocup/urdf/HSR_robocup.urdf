@@ -14,13 +14,13 @@
       <material name="table_grey"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0.55 0.95 0.72"/>
+        <box size="0.55 0.75 0.46"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0.55 0.95 0.72"/>
+        <box size="0.55 0.75 0.46"/>
       </geometry>
     </collision>
   </link>
@@ -30,22 +30,22 @@
   <link name="table_front_edge_center"/>
   <!-- JOINTS -->
   <joint name="table_origin_joint" type="fixed">
-    <origin rpy="0 0 -1.655" xyz="-1.28 -1.43 0.0"/>
+    <origin rpy="0 0 1.5" xyz="-0.35 1.5 0.0"/>
     <parent link="env_origin"/>
     <child link="table_origin"/>
   </joint>
   <joint name="table_center_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.275 0.475 0.36"/>
+    <origin rpy="0 0 0" xyz="0.275 0.375 0.23"/>
     <parent link="table_origin"/>
     <child link="table_center"/>
   </joint>
   <joint name="table_surface_center_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.275 0.475 0.72"/>
+    <origin rpy="0 0 0" xyz="0.275 0.375 0.46"/>
     <parent link="table_origin"/>
     <child link="table_surface_center"/>
   </joint>
   <joint name="table_front_edge_center_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0.475 0.72"/>
+    <origin rpy="0 0 0" xyz="0 0.375 0.46"/>
     <parent link="table_origin"/>
     <child link="table_front_edge_center"/>
   </joint>

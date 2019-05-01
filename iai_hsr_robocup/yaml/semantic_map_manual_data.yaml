@@ -3,12 +3,12 @@ names:
    - robocup_shelf
 robocup_table:
    type: Table
-   width:  0.95
-   height: 0.72
+   width:  0.75
+   height: 0.46
    depth: 0.55
-   z_rot: -1.655 # rotate 90 degree counter-clockwise w.r.t env_origin
-   x_pos: -1.28
-   y_pos: -1.43
+   z_rot: 1.5 # rotate 90 degree counter-clockwise w.r.t env_origin
+   x_pos: -0.35
+   y_pos: 1.5
 robocup_shelf:
    type: Shelf
    width: 0.98
