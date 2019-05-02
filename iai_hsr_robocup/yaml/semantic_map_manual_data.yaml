@@ -93,12 +93,12 @@ names:
 ## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
 robocup_table:
    type: Table
-   width:  0.75
+   width:  0.95
    height: 0.46
-   depth: 0.55
-   z_rot: 1.5
+   depth: 0.95
+   z_rot: 3.14
    x_pos: -1.62
-   y_pos: 0.57
+   y_pos: 1.02
 ## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
 ####
 robocup_shelf:
