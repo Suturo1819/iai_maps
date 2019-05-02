@@ -3,6 +3,8 @@ names:
    - robocup_shelf
 ##################
 # TEST ENVIRONMENT
+####
+# IKEA TABLE
 robocup_table:
    type: Table
    width:  0.75
@@ -11,6 +13,20 @@ robocup_table:
    z_rot: 1.32
    x_pos: -0.12
    y_pos: 1.86
+# IKEA TABLE
+####
+####
+# HSR BOX
+#robocup_table:
+   #type: Table
+   #width:  0.68
+   #height: 1.02
+   #depth: 0.55
+   #z_rot: -0.1
+   #x_pos: 0.05
+   #y_pos: 0.9
+# HSR BOX
+####
 robocup_shelf:
    type: Shelf
    width: 0.7
@@ -73,6 +89,28 @@ robocup_shelf:
    #num_floors: 3
 # LIVING ROOM ENV
 ######################
+######################
+# BAR ENV NOT READY YET
+#robocup_table:
+   #type: Table
+   #width:  0.9
+   #height: 1.0
+   #depth: 0.9
+   #z_rot: 1.5
+   #x_pos: -2.0
+   #y_pos: 2.0
+#robocup_shelf:
+   #type: Shelf
+   #width: 0.7
+   #height: 1.5
+   #depth: 0.36
+   #z_rot: -0.05
+   #x_pos: 0.1
+   #y_pos: 0.05
+   #floors_height: [0.11, 0.54, 0.96]
+   #num_floors: 3
+# BAR ENV
+#####################
 # adjust for the region filter
 surface_top_offset: 0.30 # 30cm above region surface
 surface_bottom_offset: 0.05 # 5cm into region surface
