@@ -75,8 +75,20 @@ robocup_shelf:
    #z_rot: 1.5
    #x_pos: -3.95
    #y_pos: 0.84
-### TV TABLE
-##### 
+## TV TABLE
+####
+####
+## ESTIMATED TABLE
+#robocup_table:
+   #type: Table
+   #width:  0.95
+   #height: 0.46
+   #depth: 0.95
+   #z_rot: -1.65
+   #x_pos: -1.6
+   #y_pos: -0.6
+## ESTIMATED TABLE
+####
 #robocup_shelf:
    #type: Shelf
    #width: 0.92
@@ -84,9 +96,9 @@ robocup_shelf:
    #depth: 0.4
    #z_rot: -0.05
    #x_pos: 0.0
-   #y_pos: 0.04
-   #floors_height: [0.11, 0.54, 0.96]
-   #num_floors: 3
+   #y_pos: -0.06
+   #floors_height: [0.1, 0.41, 0.77, 1.05]
+   #num_floors: 4
 # LIVING ROOM ENV
 ######################
 ######################
@@ -97,8 +109,8 @@ robocup_shelf:
    #height: 1.0
    #depth: 0.9
    #z_rot: 1.5
-   #x_pos: -2.0
-   #y_pos: 2.0
+   #x_pos: -1.8
+   #y_pos: 2.5
 #robocup_shelf:
    #type: Shelf
    #width: 0.7
@@ -107,8 +119,8 @@ robocup_shelf:
    #z_rot: -0.05
    #x_pos: 0.1
    #y_pos: 0.05
-   #floors_height: [0.11, 0.54, 0.96]
-   #num_floors: 3
+   #floors_height: [0.09, 0.45, 0.77, 1.05]
+   #num_floors: 4
 # BAR ENV
 #####################
 # adjust for the region filter
