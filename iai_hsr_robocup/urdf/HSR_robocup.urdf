@@ -30,7 +30,7 @@
   <link name="table_front_edge_center"/>
   <!-- JOINTS -->
   <joint name="table_origin_joint" type="fixed">
-    <origin rpy="0 0 1.5" xyz="-0.35 1.5 0.0"/>
+    <origin rpy="0 0 1.5" xyz="-1.62 0.57 0.0"/>
     <parent link="env_origin"/>
     <child link="table_origin"/>
   </joint>
@@ -57,17 +57,17 @@
   <link name="shelf_center"/>
   <link name="shelf_base_center"/>
   <joint name="shelf_origin_joint" type="fixed">
-    <origin rpy="0 0 -0.05" xyz="0.0 0.05 0.0"/>
+    <origin rpy="0 0 -0.05" xyz="0.0 -0.1 0.0"/>
     <parent link="env_origin"/>
     <child link="shelf_origin"/>
   </joint>
   <joint name="shelf_center_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.18 0.49 0.75"/>
+    <origin rpy="0 0 0" xyz="0.2 0.46 1.05"/>
     <parent link="shelf_origin"/>
     <child link="shelf_center"/>
   </joint>
   <joint name="shelf_base_center_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.18 0.49 0.0"/>
+    <origin rpy="0 0 0" xyz="0.2 0.46 0.0"/>
     <parent link="shelf_origin"/>
     <child link="shelf_base_center"/>
   </joint>
@@ -77,19 +77,19 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <box size="0.01 0.98 1.5"/>
+        <box size="0.01 0.92 2.1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <box size="0.01 0.98 1.5"/>
+        <box size="0.01 0.92 2.1"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_back_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.36 0.49 0.75"/>
+    <origin rpy="0 0 0" xyz="0.4 0.46 1.05"/>
     <parent link="shelf_origin"/>
     <child link="shelf_back_piece"/>
   </joint>
@@ -99,19 +99,19 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <box size="0.36 0.01 1.5"/>
+        <box size="0.4 0.01 2.1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <box size="0.36 0.01 1.5"/>
+        <box size="0.4 0.01 2.1"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_right_side_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.18 0.0 0.75"/>
+    <origin rpy="0 0 0" xyz="0.2 0.0 1.05"/>
     <parent link="shelf_origin"/>
     <child link="shelf_right_side_piece"/>
   </joint>
@@ -121,19 +121,19 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <box size="0.36 0.01 1.5"/>
+        <box size="0.4 0.01 2.1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <box size="0.36 0.01 1.5"/>
+        <box size="0.4 0.01 2.1"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_left_side_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.18 0.98 0.75"/>
+    <origin rpy="0 0 0" xyz="0.2 0.92 1.05"/>
     <parent link="shelf_origin"/>
     <child link="shelf_left_side_piece"/>
   </joint>
@@ -143,19 +143,19 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_floor_0_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.0 0.06"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.1"/>
     <parent link="shelf_base_center"/>
     <child link="shelf_floor_0_piece"/>
   </joint>
@@ -165,19 +165,19 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_floor_1_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.0 0.43"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.41"/>
     <parent link="shelf_base_center"/>
     <child link="shelf_floor_1_piece"/>
   </joint>
@@ -187,19 +187,19 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_floor_2_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.0 0.8"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.77"/>
     <parent link="shelf_base_center"/>
     <child link="shelf_floor_2_piece"/>
   </joint>
@@ -209,43 +209,21 @@
       <material name="shelf_grey"/>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.02"/>
       <geometry>
-        <box size="0.36 0.98 0.04"/>
+        <box size="0.4 0.92 0.04"/>
       </geometry>
     </collision>
   </link>
   <!-- JOINT -->
   <joint name="shelf_floor_3_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.0 1.162"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 1.05"/>
     <parent link="shelf_base_center"/>
     <child link="shelf_floor_3_piece"/>
-  </joint>
-  <!-- LINK -->
-  <link name="shelf_floor_4_piece">
-    <visual>
-      <material name="shelf_grey"/>
-      <origin rpy="0 0 0" xyz="0 0 -0.02"/>
-      <geometry>
-        <box size="0.36 0.98 0.04"/>
-      </geometry>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 -0.02"/>
-      <geometry>
-        <box size="0.36 0.98 0.04"/>
-      </geometry>
-    </collision>
-  </link>
-  <!-- JOINT -->
-  <joint name="shelf_floor_4_piece_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0.0 0.0 1.478"/>
-    <parent link="shelf_base_center"/>
-    <child link="shelf_floor_4_piece"/>
   </joint>
 </robot>
 

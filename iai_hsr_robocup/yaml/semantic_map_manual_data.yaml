@@ -5,14 +5,14 @@ names:
 # TEST ENVIRONMENT
 ####
 # IKEA TABLE
-robocup_table:
-   type: Table
-   width:  0.75
-   height: 0.46
-   depth: 0.55
-   z_rot: 1.32
-   x_pos: -0.12
-   y_pos: 1.86
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: 1.32
+   #x_pos: -0.12
+   #y_pos: 1.86
 # IKEA TABLE
 ####
 ####
@@ -27,16 +27,16 @@ robocup_table:
    #y_pos: 0.9
 # HSR BOX
 ####
-robocup_shelf:
-   type: Shelf
-   width: 0.7
-   height: 1.5
-   depth: 0.36
-   z_rot: -0.05
-   x_pos: 0.0
-   y_pos: 0.05
-   floors_height: [0.11, 0.54, 0.96]
-   num_floors: 3
+#robocup_shelf:
+   #type: Shelf
+   #width: 0.7
+   #height: 1.5
+   #depth: 0.36
+   #z_rot: -0.05
+   #x_pos: 0.0
+   #y_pos: 0.05
+   #floors_height: [0.11, 0.54, 0.96]
+   #num_floors: 3
 # TEST ENVIRONMENT
 ##################
 ######################
@@ -78,7 +78,7 @@ robocup_shelf:
 ## TV TABLE
 ####
 ####
-## ESTIMATED TABLE
+## ESTIMATED TABLE RIGHT OF THE SHELF
 #robocup_table:
    #type: Table
    #width:  0.95
@@ -87,22 +87,34 @@ robocup_shelf:
    #z_rot: -1.65
    #x_pos: -1.6
    #y_pos: -0.6
-## ESTIMATED TABLE
+## ESTIMATED TABLE RIGHT OF THE SHELF
 ####
-#robocup_shelf:
-   #type: Shelf
-   #width: 0.92
-   #height: 2.1
-   #depth: 0.4
-   #z_rot: -0.05
-   #x_pos: 0.0
-   #y_pos: -0.06
-   #floors_height: [0.1, 0.41, 0.77, 1.05]
-   #num_floors: 4
+####
+## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
+robocup_table:
+   type: Table
+   width:  0.75
+   height: 0.46
+   depth: 0.55
+   z_rot: 1.5
+   x_pos: -1.62
+   y_pos: 0.57
+## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
+####
+robocup_shelf:
+   type: Shelf
+   width: 0.92
+   height: 2.1
+   depth: 0.4
+   z_rot: -0.05
+   x_pos: 0.0
+   y_pos: -0.1
+   floors_height: [0.1, 0.41, 0.77, 1.05]
+   num_floors: 4
 # LIVING ROOM ENV
 ######################
 ######################
-# BAR ENV NOT READY YET
+# BAR ENV
 #robocup_table:
    #type: Table
    #width:  0.9
