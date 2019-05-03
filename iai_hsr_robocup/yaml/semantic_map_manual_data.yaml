@@ -27,16 +27,16 @@ names:
    #y_pos: 0.9
 # HSR BOX
 ####
-#robocup_shelf:
-   #type: Shelf
-   #width: 0.7
-   #height: 1.5
-   #depth: 0.36
-   #z_rot: -0.05
-   #x_pos: 0.0
-   #y_pos: 0.05
-   #floors_height: [0.11, 0.54, 0.96]
-   #num_floors: 3
+robocup_shelf:
+   type: Shelf
+   width: 0.7
+   height: 1.5
+   depth: 0.36
+   z_rot: -0.05
+   x_pos: 0.0
+   y_pos: 0.05
+   floors_height: [0.11, 0.54, 0.96]
+   num_floors: 3
 # TEST ENVIRONMENT
 ##################
 ######################
@@ -101,16 +101,16 @@ robocup_table:
    y_pos: 0.97
 ## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
 ####
-robocup_shelf:
-   type: Shelf
-   width: 0.69
-   height: 2.1
-   depth: 0.35
-   z_rot: -0.05
-   x_pos: -0.05
-   y_pos: 0.13
-   floors_height: [0.1, 0.41, 0.77, 1.05]
-   num_floors: 4
+#robocup_shelf:
+   #type: Shelf
+   #width: 0.69
+   #height: 2.1
+   #depth: 0.35
+   #z_rot: -0.05
+   #x_pos: -0.05
+   #y_pos: 0.13
+   #floors_height: [0.1, 0.41, 0.77, 1.05]
+   #num_floors: 4
 # LIVING ROOM ENV
 ######################
 ######################
