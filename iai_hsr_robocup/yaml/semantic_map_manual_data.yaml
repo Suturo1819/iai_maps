@@ -96,19 +96,19 @@ robocup_table:
    width:  0.95
    height: 0.46
    depth: 0.95
-   z_rot: 3.14
+   z_rot: 3.05
    x_pos: -1.62
-   y_pos: 1.02
+   y_pos: 1.12
 ## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
 ####
 robocup_shelf:
    type: Shelf
-   width: 0.92
+   width: 0.82
    height: 2.1
    depth: 0.4
    z_rot: -0.05
    x_pos: 0.0
-   y_pos: -0.1
+   y_pos: -0.0
    floors_height: [0.1, 0.41, 0.77, 1.05]
    num_floors: 4
 # LIVING ROOM ENV
