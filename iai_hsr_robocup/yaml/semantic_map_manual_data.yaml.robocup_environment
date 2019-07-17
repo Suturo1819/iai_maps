@@ -1,0 +1,145 @@
+names:
+   - robocup_table
+   - robocup_shelf
+##################
+# TEST ENVIRONMENT
+####
+# IKEA TABLE
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: 1.32
+   #x_pos: -0.12
+   #y_pos: 1.86
+# IKEA TABLE
+####
+####
+# HSR BOX
+#robocup_table:
+   #type: Table
+   #width:  0.68
+   #height: 1.02
+   #depth: 0.55
+   #z_rot: -0.1
+   #x_pos: 0.05
+   #y_pos: 0.9
+# HSR BOX
+####
+#robocup_shelf:
+   #type: Shelf
+   #width: 0.7
+   #height: 1.5
+   #depth: 0.36
+   #z_rot: -0.05
+   #x_pos: 0.0
+   #y_pos: 0.05
+   #floors_height: [0.11, 0.54, 0.96]
+   #num_floors: 3
+# TEST ENVIRONMENT
+##################
+######################
+# LIVING ROOM ENV
+####
+## COFFEE TABLE
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: -2.48
+   #x_pos: -3.88
+   #y_pos: -2.18
+## COFFEE TABLE
+####
+####
+## SIDEBOARD
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: 1.5
+   #x_pos: -1.62
+   #y_pos: 0.57
+## SIDEBOARD
+####
+####
+## TV TABLE 
+#robocup_table:
+   #type: Table
+   #width:  0.75
+   #height: 0.46
+   #depth: 0.55
+   #z_rot: 1.5
+   #x_pos: -3.95
+   #y_pos: 0.84
+## TV TABLE
+####
+####
+## ESTIMATED TABLE RIGHT OF THE SHELF
+#robocup_table:
+   #type: Table
+   #width:  0.95
+   #height: 0.46
+   #depth: 0.95
+   #z_rot: -1.65
+   #x_pos: -1.6
+   #y_pos: -0.6
+## ESTIMATED TABLE RIGHT OF THE SHELF
+####
+####
+## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
+robocup_table:
+   type: Table
+   width:  0.95
+   height: 0.46
+   depth: 0.95
+   z_rot: 3.05
+   x_pos: -1.87
+   y_pos: 0.97
+## ESTIMATED TABLE BEHIND THE SHELF (TV TABLE)
+####
+robocup_shelf:
+   type: Shelf
+   width: 0.69
+   height: 2.1
+   depth: 0.35
+   z_rot: -0.05
+   x_pos: -0.05
+   y_pos: 0.13
+   floors_height: [0.1, 0.41, 0.77, 1.05]
+   num_floors: 4
+# LIVING ROOM ENV
+######################
+######################
+# BAR ENV
+#robocup_table:
+   #type: Table
+   #width:  0.9
+   #height: 1.0
+   #depth: 0.9
+   #z_rot: 1.5
+   #x_pos: -1.8
+   #y_pos: 2.5
+#robocup_shelf:
+   #type: Shelf
+   #width: 0.7
+   #height: 1.5
+   #depth: 0.36
+   #z_rot: -0.05
+   #x_pos: 0.1
+   #y_pos: 0.05
+   #floors_height: [0.09, 0.45, 0.77, 1.05]
+   #num_floors: 4
+# BAR ENV
+#####################
+# adjust for the region filter
+surface_top_offset: 0.30 # 30cm above region surface
+surface_bottom_offset: 0.05 # 5cm into region surface
+#not used, but this is the data in hsr_robocup_with_state_publisher.launch
+#env_origin:
+#   x_pos: -0.86
+#   y_pos: -0.60
+#   z_rot: 4.785

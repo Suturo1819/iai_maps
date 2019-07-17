@@ -86,31 +86,31 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_P23cLQjg -->
+    <!-- &robot;Proprioception_2Qnihwct -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_P23cLQjg">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_2Qnihwct">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_eQaeAgjQ"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_xtcm0Pnl"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_table_origin_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_eQaeAgjQ -->
+    <!-- &robot;RotationMatrix3D_xtcm0Pnl -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_eQaeAgjQ">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_xtcm0Pnl">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:m00 rdf:datatype="&xsd;double">0.0707372016677029</knowrob:m00>
-        <knowrob:m01 rdf:datatype="&xsd;double">-0.9974949866040544</knowrob:m01>
+        <knowrob:m00 rdf:datatype="&xsd;double">-0.08410420417195846</knowrob:m00>
+        <knowrob:m01 rdf:datatype="&xsd;double">0.9964569648713393</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
-        <knowrob:m03 rdf:datatype="&xsd;double">-1.62</knowrob:m03>
-        <knowrob:m10 rdf:datatype="&xsd;double">0.9974949866040544</knowrob:m10>
-        <knowrob:m11 rdf:datatype="&xsd;double">0.0707372016677029</knowrob:m11>
+        <knowrob:m03 rdf:datatype="&xsd;double">-1.28</knowrob:m03>
+        <knowrob:m10 rdf:datatype="&xsd;double">-0.9964569648713393</knowrob:m10>
+        <knowrob:m11 rdf:datatype="&xsd;double">-0.08410420417195846</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.57</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">-1.43</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
-        <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
+        <knowrob:m21 rdf:datatype="&xsd;double">-0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
         <knowrob:m23 rdf:datatype="&xsd;double">0.0</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
@@ -130,22 +130,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_UdjofVab -->
+    <!-- &robot;Proprioception_r7bqRFzB -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_UdjofVab">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_r7bqRFzB">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_BO5FEeqe"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_sqVvSNDj"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_table_center_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_BO5FEeqe -->
+    <!-- &robot;RotationMatrix3D_sqVvSNDj -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_BO5FEeqe">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_sqVvSNDj">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_eQaeAgjQ"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_xtcm0Pnl"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -153,11 +153,11 @@
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.375</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.475</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">0.23</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.36</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -175,22 +175,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_hbaQlWiz -->
+    <!-- &robot;Proprioception_83EuLB4m -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_hbaQlWiz">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_83EuLB4m">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_v1mESkfW"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_mDdtQTs2"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_table_surface_center_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_v1mESkfW -->
+    <!-- &robot;RotationMatrix3D_mDdtQTs2 -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_v1mESkfW">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_mDdtQTs2">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_eQaeAgjQ"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_xtcm0Pnl"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -198,11 +198,11 @@
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.375</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.475</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">0.46</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.72</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -220,22 +220,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_X8DUiSMk -->
+    <!-- &robot;Proprioception_u1yWRSbK -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_X8DUiSMk">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_u1yWRSbK">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_G1jR0ji0"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_yBaHnSxc"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_table_front_edge_center_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_G1jR0ji0 -->
+    <!-- &robot;RotationMatrix3D_yBaHnSxc -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_G1jR0ji0">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_yBaHnSxc">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_eQaeAgjQ"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_xtcm0Pnl"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -243,11 +243,11 @@
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.375</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.475</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">0.46</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.72</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -265,20 +265,20 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_iOAIWIAX -->
+    <!-- &robot;Proprioception_nFip0raY -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_iOAIWIAX">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_nFip0raY">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_SY11Ujy8"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_uzRQ9SNc"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_origin_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_SY11Ujy8 -->
+    <!-- &robot;RotationMatrix3D_uzRQ9SNc -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_SY11Ujy8">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_uzRQ9SNc">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
         <knowrob:m00 rdf:datatype="&xsd;double">0.9987502603949663</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">0.04997916927067833</knowrob:m01>
@@ -287,7 +287,7 @@
         <knowrob:m10 rdf:datatype="&xsd;double">-0.04997916927067833</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">0.9987502603949663</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">-0.1</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.05</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">-0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
@@ -309,34 +309,34 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_dKhRFIQX -->
+    <!-- &robot;Proprioception_4BMt6nDJ -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_dKhRFIQX">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_4BMt6nDJ">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_rzuDW7Oj"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_qvMygQhc"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_center_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_rzuDW7Oj -->
+    <!-- &robot;RotationMatrix3D_qvMygQhc -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_rzuDW7Oj">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_qvMygQhc">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_SY11Ujy8"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_uzRQ9SNc"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
-        <knowrob:m03 rdf:datatype="&xsd;double">0.2</knowrob:m03>
+        <knowrob:m03 rdf:datatype="&xsd;double">0.18</knowrob:m03>
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.46</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.49</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">1.05</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.75</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -354,30 +354,30 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_6GG00EnS -->
+    <!-- &robot;Proprioception_ZztSPnUH -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_6GG00EnS">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_ZztSPnUH">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_DzqSt7Sw"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_NtE2nRnB"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_base_center_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_DzqSt7Sw -->
+    <!-- &robot;RotationMatrix3D_NtE2nRnB -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_DzqSt7Sw">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_NtE2nRnB">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_SY11Ujy8"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_uzRQ9SNc"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
-        <knowrob:m03 rdf:datatype="&xsd;double">0.2</knowrob:m03>
+        <knowrob:m03 rdf:datatype="&xsd;double">0.18</knowrob:m03>
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.46</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.49</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
@@ -399,34 +399,34 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_jWz2aNIQ -->
+    <!-- &robot;Proprioception_pQhKnuhP -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_jWz2aNIQ">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_pQhKnuhP">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_wMLPqcHe"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_Jrna7ODz"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_back_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_wMLPqcHe -->
+    <!-- &robot;RotationMatrix3D_Jrna7ODz -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_wMLPqcHe">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_Jrna7ODz">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_SY11Ujy8"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_uzRQ9SNc"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
-        <knowrob:m03 rdf:datatype="&xsd;double">0.4</knowrob:m03>
+        <knowrob:m03 rdf:datatype="&xsd;double">0.36</knowrob:m03>
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.46</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.49</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">1.05</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.75</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -444,26 +444,26 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_aQXjDLhN -->
+    <!-- &robot;Proprioception_5JIOjtLS -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_aQXjDLhN">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_5JIOjtLS">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_sKsYacXc"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_rDJTvWp6"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_right_side_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_sKsYacXc -->
+    <!-- &robot;RotationMatrix3D_rDJTvWp6 -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_sKsYacXc">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_rDJTvWp6">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_SY11Ujy8"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_uzRQ9SNc"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
-        <knowrob:m03 rdf:datatype="&xsd;double">0.2</knowrob:m03>
+        <knowrob:m03 rdf:datatype="&xsd;double">0.18</knowrob:m03>
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
@@ -471,7 +471,7 @@
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">1.05</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.75</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -489,34 +489,34 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_yQQMJJnc -->
+    <!-- &robot;Proprioception_1HrX4r3A -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_yQQMJJnc">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_1HrX4r3A">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_PIjrga4B"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_nBs3eTF4"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_left_side_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_PIjrga4B -->
+    <!-- &robot;RotationMatrix3D_nBs3eTF4 -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_PIjrga4B">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_nBs3eTF4">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_SY11Ujy8"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_uzRQ9SNc"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
-        <knowrob:m03 rdf:datatype="&xsd;double">0.2</knowrob:m03>
+        <knowrob:m03 rdf:datatype="&xsd;double">0.18</knowrob:m03>
         <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
         <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
         <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
-        <knowrob:m13 rdf:datatype="&xsd;double">0.92</knowrob:m13>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.98</knowrob:m13>
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">1.05</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.75</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -534,22 +534,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_nrkpLzSo -->
+    <!-- &robot;Proprioception_EIL5ns0e -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_nrkpLzSo">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_EIL5ns0e">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_ElN4hZiM"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_zBmfNTKg"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_floor_0_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_ElN4hZiM -->
+    <!-- &robot;RotationMatrix3D_zBmfNTKg -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_ElN4hZiM">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_zBmfNTKg">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_DzqSt7Sw"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_NtE2nRnB"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -561,7 +561,7 @@
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">0.1</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.06</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -579,22 +579,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_KrbQRxJM -->
+    <!-- &robot;Proprioception_kSe0jpDZ -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_KrbQRxJM">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_kSe0jpDZ">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_QjJhOYn1"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_ocQUOIZs"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_floor_1_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_QjJhOYn1 -->
+    <!-- &robot;RotationMatrix3D_ocQUOIZs -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_QjJhOYn1">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_ocQUOIZs">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_DzqSt7Sw"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_NtE2nRnB"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -606,7 +606,7 @@
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">0.41</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.43</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -624,22 +624,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_EEvOMDyu -->
+    <!-- &robot;Proprioception_gAVi4pUZ -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_EEvOMDyu">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_gAVi4pUZ">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_Hf9zhWUW"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_kax4yGgq"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_floor_2_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_Hf9zhWUW -->
+    <!-- &robot;RotationMatrix3D_kax4yGgq -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_Hf9zhWUW">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_kax4yGgq">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_DzqSt7Sw"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_NtE2nRnB"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -651,7 +651,7 @@
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">0.77</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">0.8</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -669,22 +669,22 @@
     </owl:NamedIndividual>
 
 
-    <!-- &robot;Proprioception_zAdXyDOs -->
+    <!-- &robot;Proprioception_uQM05weU -->
 
-    <owl:NamedIndividual rdf:about="&robot;Proprioception_zAdXyDOs">
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_uQM05weU">
         <rdf:type rdf:resource="&knowrob;Proprioception"/>
-        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_GtLov3sF"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_vauh6FjD"/>
         <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
         <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_floor_3_piece_joint"/>
     </owl:NamedIndividual>
 
 
 
-    <!-- &robot;RotationMatrix3D_GtLov3sF -->
+    <!-- &robot;RotationMatrix3D_vauh6FjD -->
 
-    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_GtLov3sF">
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_vauh6FjD">
         <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
-        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_DzqSt7Sw"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_NtE2nRnB"/>
         <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
         <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
         <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
@@ -696,7 +696,52 @@
         <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
         <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
         <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
-        <knowrob:m23 rdf:datatype="&xsd;double">1.05</knowrob:m23>
+        <knowrob:m23 rdf:datatype="&xsd;double">1.162</knowrob:m23>
+        <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="&xsd;double">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+
+
+
+    <!-- &robot;kitchen_description_shelf_floor_4_piece_joint -->
+
+    <owl:NamedIndividual rdf:about="&robot;kitchen_description_shelf_floor_4_piece_joint">
+        <rdf:type rdf:resource="&srdl2-comp;FixedUrdfJoint"/>
+        <srdl2-comp:urdfName>shelf_floor_4_piece_joint</srdl2-comp:urdfName>
+        <srdl2-comp:succeedingLink rdf:resource="&robot;kitchen_description_shelf_floor_4_piece"/>
+    </owl:NamedIndividual>
+
+
+    <!-- &robot;Proprioception_lMasxuLS -->
+
+    <owl:NamedIndividual rdf:about="&robot;Proprioception_lMasxuLS">
+        <rdf:type rdf:resource="&knowrob;Proprioception"/>
+        <knowrob:eventOccursAt rdf:resource="&robot;RotationMatrix3D_tp85jNRl"/>
+        <knowrob:startTime rdf:resource="&robot;timepoint_1357020000"/>
+        <knowrob:objectActedOn rdf:resource="&robot;kitchen_description_shelf_floor_4_piece_joint"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- &robot;RotationMatrix3D_tp85jNRl -->
+
+    <owl:NamedIndividual rdf:about="&robot;RotationMatrix3D_tp85jNRl">
+        <rdf:type rdf:resource="&knowrob;RotationMatrix3D"/>
+        <knowrob:relativeTo rdf:resource="&robot;RotationMatrix3D_NtE2nRnB"/>
+        <knowrob:m00 rdf:datatype="&xsd;double">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="&xsd;double">-0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="&xsd;double">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="&xsd;double">0.0</knowrob:m03>
+        <knowrob:m10 rdf:datatype="&xsd;double">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="&xsd;double">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="&xsd;double">-0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="&xsd;double">0.0</knowrob:m13>
+        <knowrob:m20 rdf:datatype="&xsd;double">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="&xsd;double">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="&xsd;double">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="&xsd;double">1.478</knowrob:m23>
         <knowrob:m30 rdf:datatype="&xsd;double">0.0</knowrob:m30>
         <knowrob:m31 rdf:datatype="&xsd;double">0.0</knowrob:m31>
         <knowrob:m32 rdf:datatype="&xsd;double">0.0</knowrob:m32>
@@ -727,8 +772,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>table_center</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">table_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.55 0.75 0.46</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.55 0.75 0.46</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.55 0.95 0.72</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.55 0.95 0.72</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -795,6 +840,7 @@
         <srdl2-comp:succeedingJoint rdf:resource="&robot;kitchen_description_shelf_floor_1_piece_joint"/>
         <srdl2-comp:succeedingJoint rdf:resource="&robot;kitchen_description_shelf_floor_2_piece_joint"/>
         <srdl2-comp:succeedingJoint rdf:resource="&robot;kitchen_description_shelf_floor_3_piece_joint"/>
+        <srdl2-comp:succeedingJoint rdf:resource="&robot;kitchen_description_shelf_floor_4_piece_joint"/>
     </owl:NamedIndividual>
 
 
@@ -804,8 +850,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_back_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.01 0.92 2.1</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.01 0.92 2.1</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.01 0.98 1.5</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.01 0.98 1.5</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -815,8 +861,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_right_side_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.01 2.1</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.01 2.1</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.01 1.5</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.01 1.5</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -826,8 +872,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_left_side_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.01 2.1</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.01 2.1</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.01 1.5</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.01 1.5</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -837,8 +883,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_floor_0_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -848,8 +894,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_floor_1_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -859,8 +905,8 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_floor_2_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
@@ -870,8 +916,19 @@
         <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
         <srdl2-comp:urdfName>shelf_floor_3_piece</srdl2-comp:urdfName>
         <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
-        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.4 0.92 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
+    </owl:NamedIndividual>
+
+
+    <!-- &robot;kitchen_description_shelf_floor_4_piece -->
+
+    <owl:NamedIndividual rdf:about="&robot;kitchen_description_shelf_floor_4_piece">
+        <rdf:type rdf:resource="&srdl2-comp;UrdfLink"/>
+        <srdl2-comp:urdfName>shelf_floor_4_piece</srdl2-comp:urdfName>
+        <srdl2-comp:material_name rdf:datatype="&xsd;string">shelf_grey</srdl2-comp:material_name>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
+        <srdl2-comp:box_size rdf:datatype="&xsd;string">0.36 0.98 0.04</srdl2-comp:box_size>
     </owl:NamedIndividual>
 
 
